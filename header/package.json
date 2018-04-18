@@ -1,0 +1,33 @@
+{
+  "name": "header",
+  "description": "",
+  "version": "1.0.0",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "static": [
+        "img",
+        "css"
+      ],
+      "template": {
+        "src": "template.hbs",
+        "type": "oc-template-handlebars"
+      }
+    },
+    "parameters": {
+      "name": {
+        "default": "Anand Kumar",
+        "description": "My name",
+        "example": "Anand Kumar",
+        "mandatory": false,
+        "type": "string"
+      }
+    }
+  },
+  "devDependencies": {
+    "oc-template-handlebars-compiler": "^6.2.2"
+  },
+  "dependencies": {
+    "superagent": "^3.8.2"
+  }
+}

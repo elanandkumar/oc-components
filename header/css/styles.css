@@ -1,0 +1,10 @@
+.meme {
+  background:#eeeeee;
+  height: 100%;
+}
+
+.meme__text {
+  margin:0;
+  padding:0;
+  color: black;
+}
